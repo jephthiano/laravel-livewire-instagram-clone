@@ -42,9 +42,10 @@
     <div class="j-row">
 
         <section class='j-col xl8 j-padding' h-full>
-            <section class="j-border j-padding">
+            <section class="j-padding">
             
-            {{-- stories --}}
+              {{-- stories --}}
+              <section>
                 <ul class="flex overflow-x-auto scrollbar-hide items-center gap-2">
                     @for ($i = 0; $i < 10; $i++)
                         <li class="flex flex-col justify-center w-20 gap-1 p-2">
@@ -54,13 +55,20 @@
                     @endfor
         
                 </ul>
+              </section>
+
+              {{-- post --}}
+              <section>
+                {{-- add with livewire --}}
+                <livewire:post.item />
+              </section>
 
             </section>
         </section>
 
         <aside class='j-col xl4 j-padding'>
 
-            <section class="j-border j-padding">
+            <section class=" j-padding">
                 {{-- suggestions --}}
 
             </section>
