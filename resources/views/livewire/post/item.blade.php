@@ -37,7 +37,7 @@
     <main>
 
         <div class="my-2">
-            {{-- <x-video /> --}}
+            <x-video />
         </div>
     </main>
 
