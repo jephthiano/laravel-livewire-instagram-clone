@@ -144,7 +144,7 @@
                 <h4 x-cloak x-show="!(shrink||drawer)"  class=" text-lg font-medium">Notifications</h4>
             </a></li>
 
-          <li><div  
+          <li><div 
             onclick="Livewire.dispatch('openModal', { component: 'post.create' });"
             class="flex items-center gap-5">
 

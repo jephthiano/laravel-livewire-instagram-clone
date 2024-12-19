@@ -11,8 +11,10 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
+        @livewireStyles
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/css/main.css', 'resources/css/color.css', 'resources/js/app.js'])
+        {{-- @vite(['resources/css/app.css', 'resources/css/main.css', 'resources/css/color.css', 'resources/js/app.js']) --}}
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
         
         <style>
             [x-clock]{
@@ -39,6 +41,7 @@
             </div>
         </div>
 
-        @livewire('wire-elements-modal')
+        @livewire('wire-elements-modal');
+        {{-- @livewireScriptConfig  --}}
     </body>
 </html>
