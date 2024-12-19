@@ -19,6 +19,7 @@
         "vite": "^6.0"
     },
     "dependencies": {
+        "@alpinejs/focus": "^3.14.7",
         "@alpinejs/intersect": "^3.14.7",
         "alpine": "^0.2.1",
         "swiper": "^11.1.15",
