@@ -6,8 +6,7 @@ use App\Models\Post;
 use Illuminate\Support\Facades\Storage;
 use Livewire\Component;
 
-class Home extends Component
-{
+class Home extends Component{
 
 
     public $posts;
